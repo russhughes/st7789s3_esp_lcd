@@ -13,8 +13,7 @@ I modified the original driver for one of my projects to add:
 - Writing text using bitmaps converted from True Type fonts
 - Drawing text using 8 and 16-bit wide bitmap fonts
 - Drawing text using Hershey vector fonts
-- Drawing JPGs, including a SLOW mode to draw jpg's larger than available ram
-  using the TJpgDec - Tiny JPEG Decompressor R0.01d. from
+- Drawing JPGs using the TJpgDec - Tiny JPEG Decompressor R0.01d. from
   http://elm-chan.org/fsw/tjpgd/00index.html
 - Drawing PNGs using the pngle library from https://github.com/kikuchan/pngle
 - Drawing and rotating Polygons and filled Polygons
