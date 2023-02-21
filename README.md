@@ -25,7 +25,7 @@ Hershey vector fonts and several example programs for different devices.
 ## Pre-compiled firmware
 
 The firmware directory contains pre-compiled MicroPython v1.19.1-451-gbdbc44474
-firmware compiled using ESP IDF v4.4. The firmware includes the st7789 C driver
+firmware compiled using ESP IDF v4.4.3 The firmware includes the st7789 C driver
 and several frozen python font files. See the README.md file in the fonts
 folder for more information about the font files.
 
@@ -73,12 +73,12 @@ sudo apt-get -y install build-essential libffi-dev git pkg-config cmake virtuale
 ### Install a compatible esp-idf SDK
 
 The MicroPython README.md states: "The ESP-IDF changes quickly, and MicroPython
-only supports certain versions. I have had good luck using IDF v4.4.
+only supports certain versions. I have had good luck using IDF v4.4.3
 
 Clone the esp-idf SDK repo -- this usually takes several minutes.
 
 ```bash
-git clone -b v4.4 --recursive https://github.com/espressif/esp-idf.git
+git clone -b v4.4.3 --recursive https://github.com/espressif/esp-idf.git
 cd esp-idf/
 git pull
 ```
@@ -88,7 +88,7 @@ with MicroPython and update the submodules using:
 
 ```bash
 $ cd esp-idf
-$ git checkout v4.4
+$ git checkout v4.4.3
 $ git submodule update --init --recursive
 ```
 
