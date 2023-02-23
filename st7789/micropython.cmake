@@ -13,7 +13,7 @@ target_sources(usermod_st7789 INTERFACE
 
 # Add the current directory as an include directory.
 target_include_directories(usermod_st7789 INTERFACE
-    /Volumes/MicroPython/esp-idf-4.4.2/components/esp_lcd/include/
+    ${IDF_PATH}/components/esp_lcd/include/
     ${CMAKE_CURRENT_LIST_DIR}
 
     )
