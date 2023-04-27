@@ -24,10 +24,10 @@ Hershey vector fonts and several example programs for different devices.
 
 ## Pre-compiled firmware
 
-The firmware directory contains pre-compiled MicroPython v1.19.1-451-gbdbc44474
-firmware compiled using ESP IDF v4.4.3 The firmware includes the st7789 C driver
-and several frozen python font files. See the README.md file in the fonts
-folder for more information about the font files.
+The firmware directory contains pre-compiled MicroPython v1.20.0 firmware compiled
+using ESP IDF v4.4.4 The firmware includes the st7789 C driver and several frozen
+python font files. See the README.md file in the fonts folder for more information
+about the font files.
 
 
 ## Thanks go out to:
