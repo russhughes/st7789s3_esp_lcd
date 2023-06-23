@@ -174,7 +174,7 @@ Set PORT= to the ESP32's USB serial port
 
 ```bash
 esptool.py --port COM3 erase_flash
-esptool.py --chip esp32 --port COM3 write_flash -z 0x1000 firmware.bin
+esptool.py --chip esp32 --port COM3 write_flash -z 0x0 firmware.bin
 ```
 ## CMake building instructions for MicroPython 1.14 and later
 
