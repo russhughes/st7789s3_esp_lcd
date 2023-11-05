@@ -1,3 +1,7 @@
+See https://github.com/russhughes/s3lcd for a much faster Framebuffered version of the 
+driver using the ESP_LCD esp-idf component. It's a beta release and has minor differences 
+from this driver.
+
 # ESP_LCD MicroPython driver for the TTGO T-Display-S3 st7789 display
 
 Warning: This is a work in progress and may contain bugs and/or incorrect documentation.
